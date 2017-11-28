@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif, Helvetica;
+  margin: 0;
+  padding: 0;
+  background-color: #afa9a9f9;
+}
+
+.row {
+  padding-bottom: 3px;
+}
+
+.btn {
+  width: 70px;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+.header {
+  font-size: 18px;
+  position: relative;
+  height: 60px;
+  background-color: #f8eef8;
+  /* width: 60%; */
+  margin-left: 23%;
+  margin-right: 23%;
+  margin-bottom: 5%;
+  border-bottom: 0.1em solid gainsboro;
+}
+
+.header>.logo {
+  position: relative;
+  padding: 20px 60px;
+  float: left;
+}
+
+.header .logo a:hover {
+  text-decoration: none;
+}
+
+.header>.menu {
+  position: relative;
+  padding: 20px 0px 0px 0px;
+  margin-right: 5%;
+  float: right;
+}
+
+.header>.menu>ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.header>.menu>ul>li {
+  padding-right: 25px;
+  text-decoration: none;
+}
+
+.header .menu ul li a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.stockDetailsForm {
+  position: relative;
+  margin-left: 23%;
+  margin-right: 23%;
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+.latlong {
+  position: relative;
+  margin-left: 23%;
+  margin-right: 23%;
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+.googleMap {
+  position: relative;
+  padding: 0.5em;
+  margin-top: 1em;
+}
