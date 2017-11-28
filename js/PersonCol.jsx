@@ -1,12 +1,16 @@
 import React from "react";
+import styled from "styled-components";
 
+const TH = styled.th`
+  text-align: center
+`;
 const PersonCol = () => (
   <tr>
-    <th>Stock Price</th>
-    <th>Stock Name</th>
-    <th>Buy Price</th>
-    <th>Stock Amount</th>
-    <th>Date Selected</th>
+    <TH>Stock Price</TH>
+    <TH>Stock Name</TH>
+    <TH>Buy Price</TH>
+    <TH>Stock Amount</TH>
+    <TH>Date Selected</TH>
   </tr>
 );
 export default PersonCol;
